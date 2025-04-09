@@ -11,8 +11,6 @@ btn.addEventListener("click", function(){
         growth.style.width = grow + "%"
        
     }, 50)
-
-
     setTimeout(()=>{
         clearInterval(int)
         btn.innerHTML = "Completed"
